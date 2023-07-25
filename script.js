@@ -16,12 +16,27 @@ const images = {
   Heart: "/imgs/heart.png",
   Diamond: "/imgs/diamond.png"
 };
-const deckers = [images.Ace, images[2], images[3], images[4], images[5], images[6], images[7], images[8], images[9], images[10], images.Joker, images.Queen, images.King, images.Heart, images.Diamond];
-// const deckers = ["blue", "red", "green", "yellow", "grey", "brown", "black", "aqua", "white", "violet", "pink", "purple", "orange"];
+const deckers = [
+    images.Ace, 
+    images[2], 
+    images[3], 
+    images[4], 
+    images[5], 
+    images[6], 
+    images[7], 
+    images[8], 
+    images[9], 
+    images[10], 
+    images.Joker, 
+    images.Queen, 
+    images.King, 
+    images.Heart, 
+    images.Diamond
+];
 const deckList = [...deckers, ...deckers];
 const cardCount = deckList.length;
 
-// Game state
+// Game states
 let revealedCount = 0;
 let activeCard = null;
 let awaitingEndOfMove = false;
@@ -42,7 +57,6 @@ function buildDeck(decker) {
       return;
     }
     element.innerHTML = `<img src=${decker} />`;
-    // element.style.backgroundImage = decker; // color = decker
 
     if (!activeCard) {
       activeCard = element;

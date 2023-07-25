@@ -24,7 +24,18 @@ body {
     height: 100%;
     background-image: repeating-linear-gradient(0deg, transparent, transparent 5px, #d2b48c 5px, #d2b48c 10px);
   }
-  
+
+  section {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+  }
+
+  .scoreboard {
+    display: flex;
+    border: 5px #ff2e2e solid;
+    background-color: white;
+  }
   
   .cards {
     margin: 48px auto;
