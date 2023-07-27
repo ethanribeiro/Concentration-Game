@@ -1,20 +1,20 @@
 const cardsContainer = document.querySelector(".cards");
 const images = {
-  Ace: "/imgs/ace.png",
-  2: "/imgs/two.png",
-  3: "/imgs/three.png",
-  4: "/imgs/four.png",
-  5: "/imgs/five.png",
-  6: "/imgs/six.png",
-  7: "/imgs/seven.png",
-  8: "/imgs/eight.png",
-  9: "/imgs/nine.png",
-  10: "/imgs/10.png",
-  Joker: "/imgs/joker.png",
-  Queen: "/imgs/queen.png",
-  King: "/imgs/king.png",
-  Heart: "/imgs/heart.png",
-  Diamond: "/imgs/diamond.png"
+  Ace: "imgs/ace.png",
+  2: "imgs/two.png",
+  3: "imgs/three.png",
+  4: "imgs/four.png",
+  5: "imgs/five.png",
+  6: "imgs/six.png",
+  7: "imgs/seven.png",
+  8: "imgs/eight.png",
+  9: "imgs/nine.png",
+  10: "imgs/10.png",
+  Joker: "imgs/joker.png",
+  Queen: "imgs/queen.png",
+  King: "imgs/king.png",
+  Heart: "imgs/heart.png",
+  Diamond: "imgs/diamond.png"
 };
 const deckers = [
     images.Ace, 
