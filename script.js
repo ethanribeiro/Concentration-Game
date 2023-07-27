@@ -40,6 +40,9 @@ const cardCount = deckList.length;
 let revealedCount = 0;
 let activeCard = null;
 let awaitingEndOfMove = false;
+let scoreTurns = 0;
+let scoreErrors = 0;
+let scoreMatches = 0;
 
 // Functions
 function buildDeck(decker) {
@@ -57,6 +60,8 @@ function buildDeck(decker) {
       return;
     }
     element.innerHTML = `<img src=${decker} />`;
+    // scoreTurns += 1;
+    // document.createElement()
 
     if (!activeCard) {
       activeCard = element;

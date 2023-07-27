@@ -16,7 +16,7 @@
 * VS Code
 
 ## Getting Started:
-
+Link: https://ethanribeiro.github.io/Concentration-Game/
 1. Game will start automatically upon page loading.
 1. Select one card out of the 30.
 1. Then select another card seperate from the current/previous selected.

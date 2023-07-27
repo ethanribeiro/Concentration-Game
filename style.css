@@ -52,7 +52,13 @@ body {
     border: 5px solid #ff2e2e;
     cursor: pointer;
     justify-items: center;
+    /* transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out; */
   }
+
+  /* .card:hover {
+    transform: rotateY(180deg);
+  } */
   
   img {
     width: 95%;
