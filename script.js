@@ -58,6 +58,8 @@ errorsScoreEl.setAttribute('id', 'error-score');
 let MatchScoreEl = scoreboard.appendChild(document.createElement("h3"));
 MatchScoreEl.setAttribute('id', 'match-score');
 
+let gameOver = false;
+
 // let turnScoreTag = document.querySelector
 // let errorsScoreTag = 
 // let matchScoreTag = 
@@ -115,9 +117,12 @@ function buildDeck(decker) {
         console.log("Score of Errors:", scoreErrors + "/15");
         errorsScoreEl.innerHTML = "Errors: " + scoreErrors + "/15";
         if (scoreErrors >= 15) {
-            alert("GAME OVER");
-            awaitingCard = false;
-            activeCard = null;
+            gameOver = true;
+
+            if (gameOver) {
+                awaitingCard = false;
+                activeCard = null;
+            }
         }
     }
     

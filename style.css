@@ -28,7 +28,7 @@ body {
   section {
     display: flex;
     flex-flow: row;
-    align-items: center;
+    align-items: baseline;
   }
 
   .scoreboard {
@@ -37,6 +37,8 @@ body {
     border: 5px #ff2e2e solid;
     background-color: white;
     padding: 10px;
+    margin-block: auto;
+    margin-right: 200px;
   }
   
   .cards {
