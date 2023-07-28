@@ -120,7 +120,7 @@ function buildDeck(decker) {
             gameOver = true;
 
             if (gameOver) {
-                alert("GAME OVER", document.body.appendChild(restartButton));
+                alert("GAME OVER");
                 awaitingCard = false;
                 activeCard = null;
             }
