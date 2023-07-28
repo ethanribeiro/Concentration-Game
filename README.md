@@ -6,6 +6,7 @@
 ## Screenshots:
 ![Screenshot of game when player starts](/imgs/memory-screenshot-1.jpg "This is a sample image.")
 ![Screenshot of game when player wins](/imgs/memory-screenshot-2.jpg "This is a sample image.")
+![Screenshot of game when player loses](/imgs/memory-screenshot-3.jpg "This is a sample image.")
 
 ## Technology Used:
 
