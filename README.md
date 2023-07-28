@@ -24,6 +24,7 @@ Link: https://ethanribeiro.github.io/Concentration-Game/
 1. If both cards match with the same symbol / image, then both cards will stay <br /> visible.
     1. If both cards don't match with the same symbol /image, then both cards <br /> will be hidden again, in the same spot, while completing the player's turn.
 1. Once all 30 cards have been matched, an alert is executed with the text <br /> "You win! Refresh to play again."
+1. If score of errors reach 15, game is over, and an alert is executed with the text <br /> "GAME OVER".
 1. End of game
 
 ## Future Enhancements / Updates:
